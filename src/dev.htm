@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>色盘</title>
+    <style>
+    html,body{margin:0;padding:0;}
+    #stage{margin: 0 auto;width: 6rem;height: 6rem;}
+    </style>
+    <script>
+            (function(){
+                var html = document.documentElement;
+                var body = document.body;
+                window.addEventListener('resize', calc, false);
+                document.addEventListener('DOMContentLoaded', calc, false);
+                calc();
+                function calc(){
+                    var width = html.clientWidth || body.clientWidth || window.screen.width || window.innerWidth;
+                    if(width) {
+                        html.style.fontSize = width / 7.5 + 'px';
+                    }
+                    html.dataset.dpr = window.devicePixelRatio;
+                }
+            })()
+        </script>
+
+</head>
+<body>
+    <!-- <img src="c.webp" alt=""> -->
+    <div id="ft">文字颜色</div>
+    <div id="submit">要提交的颜色</div>
+    <div id="stage"></div>
+    <script src="use.js"></script>
+</body>
+</html>

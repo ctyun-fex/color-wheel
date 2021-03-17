@@ -5,9 +5,9 @@
 ![demo](demo.png "demo")
 
 
-1. 安装 `npm i @ctyun/colorWheel`
+1. 安装 `npm i @ctyun/color-wheel`
 2. 使用
-        var Color_Wheel = require('@ctyun/colorWheel');
+        var Color_Wheel = require('@ctyun/color-wheel');
 
         var colorWheel = new Color_Wheel({
             wraper:document.getElementById('stage'),

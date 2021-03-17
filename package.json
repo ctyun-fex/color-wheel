@@ -1,6 +1,6 @@
 {
-  "name": "@ctyun/colorWheel",
-  "version": "0.3.6",
+  "name": "@ctyun/color-wheel",
+  "version": "0.3.7",
   "description": "无依赖 / H5 / 选色盘。 non-dependence / high-performance / pureness。 colorWheel",
   "main": "dist/color.js",
   "author": "Lemon",

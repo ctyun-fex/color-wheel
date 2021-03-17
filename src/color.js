@@ -1,4 +1,3 @@
-var Color = require('color');
 var imageData = require('./pic');
 
 function Color_Wheel(config) {

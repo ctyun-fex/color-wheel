@@ -1,7 +1,7 @@
 {
   "name": "@ctyun/colorWheel",
   "version": "0.3.6",
-  "description": "调色盘 Dom版",
+  "description": "无依赖 / H5 / 选色盘。 non-dependence / high-performance / pureness。 colorWheel",
   "main": "dist/color.js",
   "author": "Lemon",
   "scripts": {
@@ -17,7 +17,10 @@
     "rollup": "^0.64.1",
     "rollup-plugin-commonjs": "^9.1.6"
   },
-  "dependencies": {
-    "color": "^3.0.0"
-  }
+  "dependencies": {},
+  "keywords": [
+    "选色盘",
+    "color wheel",
+    "library"
+  ]
 }

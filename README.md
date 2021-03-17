@@ -1,10 +1,13 @@
-# 色盘组件 DOM版
+# 色盘组件 DOM版 仅开放touch选色
 ## 使用方法
 功能： 实例化； 重置颜色
 
-1. 安装 `npm i @fe/colorWheel`
+![demo](demo.png "demo")
+
+
+1. 安装 `npm i @ctyun/colorWheel`
 2. 使用
-        var Color_Wheel = require('../dist/color');
+        var Color_Wheel = require('@ctyun/colorWheel');
 
         var colorWheel = new Color_Wheel({
             wraper:document.getElementById('stage'),
